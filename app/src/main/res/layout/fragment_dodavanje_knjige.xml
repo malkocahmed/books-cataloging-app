@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ba.unsa.etf.rma.spirala2.ahmed_malkoc.spirala.DodavanjeKnjigeFragment">
+
+    <ImageView
+        android:id="@+id/naslovnaStr"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/dNadjiSliku"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/naslovnaStr"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/NadjiSliku" />
+
+    <EditText
+        android:id="@+id/imeAutora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dNadjiSliku"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ime autora" />
+
+    <EditText
+        android:id="@+id/nazivKnjige"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imeAutora"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Naziv knjige" />
+
+    <Button
+        android:id="@+id/dUpisiKnjigu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/nazivKnjige"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/Upisiknjigu"/>
+
+
+    <Button
+        android:id="@+id/dPonisti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/dUpisiKnjigu"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/Ponisti"/>
+
+
+
+    <Spinner
+        android:id="@+id/sKategorijaKnjige"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/naslovnaStr"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_toEndOf="@+id/dNadjiSliku"
+        android:layout_toRightOf="@+id/dNadjiSliku" />
+
+</RelativeLayout>

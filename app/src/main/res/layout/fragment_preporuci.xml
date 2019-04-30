@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ba.unsa.etf.rma.spirala2.ahmed_malkoc.spirala.FragmentPreporuci">
+
+    <TextView
+        android:id="@+id/knjigaNaslov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/knjigaAutori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/knjigaNaslov"
+        android:textSize="15dp"/>
+    <TextView
+        android:id="@+id/textviewKontakti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="@string/tekstKontakti"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/knjigaAutori"/>
+
+    <Spinner
+        android:id="@+id/sKontakti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_toRightOf="@id/textviewKontakti"
+        android:layout_alignTop="@+id/textviewKontakti"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:id="@+id/dPosalji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sKontakti"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/PosaljiMail"/>
+
+
+</RelativeLayout>

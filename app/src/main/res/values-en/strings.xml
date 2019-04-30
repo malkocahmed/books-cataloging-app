@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spirala</string>
+    <string name="NadjiSliku">Choose image</string>
+    <string name="ImeAutora">Author name</string>
+    <string name="NazivKnjige">Book title</string>
+    <string name="Upisiknjigu">Confirm</string>
+    <string name="Ponisti">Cancel</string>
+    <string name="Povratak">Back</string>
+    <string name="Kategorije">Categories</string>
+    <string name="Autori">Authors</string>
+    <string name="Pretrazi">Search</string>
+    <string name="DodajKategoriju">Add category</string>
+    <string name="DodajKnjigu">Add book</string>
+    <string name="DodajOnline">Add book online</string>
+    <string name="Pretraga">Search</string>
+    <string name="tekstKategorije">Categories:</string>
+    <string name="tekstKnjige">Books:</string>
+    <string name="dugmeDodajKnjiguOnline">Add book</string>
+    <string name="PovratakOnline">Back</string>
+    <string name="Preporuci">Recommend</string>
+    <string name="tekstKontakti">Contacts</string>
+    <string name="PosaljiMail">Send mail</string>
+
+</resources>

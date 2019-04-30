@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Spirala</string>
+    <string name="NadjiSliku">Nađi sliku</string>
+    <string name="ImeAutora">Ime autora</string>
+    <string name="NazivKnjige">Naziv knjige</string>
+    <string name="Upisiknjigu">Upiši knjigu</string>
+    <string name="Ponisti">Poništi</string>
+    <string name="Povratak">Povratak</string>
+    <string name="Kategorije">Kategorije</string>
+    <string name="Autori">Autori</string>
+    <string name="Pretrazi">Pretraži</string>
+    <string name="DodajKategoriju">Dodaj kategoriju</string>
+    <string name="DodajKnjigu">Dodaj knjigu</string>
+    <string name="DodajOnline">Dodaj knjigu online</string>
+    <string name="Pretraga">Pretraga</string>
+    <string name="tekstKategorije">Kategorije:</string>
+    <string name="tekstKnjige">Knjige:</string>
+    <string name="dugmeDodajKnjiguOnline">Dodaj knjigu</string>
+    <string name="PovratakOnline">Povratak</string>
+    <string name="Preporuci">Preporuči</string>
+    <string name="tekstKontakti">Kontakti</string>
+    <string name="PosaljiMail">Pošalji mail</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

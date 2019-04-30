@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ba.unsa.etf.rma.spirala2.ahmed_malkoc.spirala.FragmentOnline">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--Zadatak U početnoj aktivnosti (KategorijeAkt) dodajte dugme sa id-em
+    dDodajOnline sa tekstom dodaj knjigu online . Klik na ovo dugme otvara fragment
+     FragmentOnline. FragmentOnline sadrži spinner sa kategorijama koji ima id
+     sKategorije , edit text sa id-em tekstUpit, spinner sRezultat, dugme sa id-em
+     dRun i tekstom Pretraga , dugme sa id-em dAdd i tekstom dodaj knjigu i dugme
+     sa id-em dPovratak koje vraća nazad na početni izgled aplikacije. -->
+
+    <EditText
+        android:id="@+id/tekstUpit"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:id="@+id/dRun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tekstUpit"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/Pretraga"/>
+
+    <TextView
+        android:id="@+id/tekstviewKategorije"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tekstUpit"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/tekstKategorije"
+        android:textSize="18dp"/>
+
+    <Spinner
+        android:id="@+id/sKategorije"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tekstviewKategorije"
+        android:layout_toRightOf="@+id/tekstviewKategorije"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:id="@+id/tekstviewKnjige"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tekstviewKategorije"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/tekstKnjige"
+        android:textSize="18dp"/>
+
+    <Spinner
+        android:id="@+id/sRezultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tekstviewKnjige"
+        android:layout_toRightOf="@+id/tekstviewKnjige"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+        android:id="@+id/dAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tekstviewKnjige"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/dugmeDodajKnjiguOnline"/>
+
+    <Button
+        android:id="@+id/dPovratak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dAdd"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/PovratakOnline"/>
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

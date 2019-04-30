@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/eNaslovna"
+        android:layout_width="100dp"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/eNaziv"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/eNaslovna"
+        android:layout_toRightOf="@+id/eNaslovna"
+        />
+
+    <TextView
+        android:id="@+id/eAutor"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eNaziv"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@+id/eNaziv"
+        android:layout_alignLeft="@+id/eNaziv"
+        />
+
+    <TextView
+        android:id="@+id/eDatumObjavljivanja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eAutor"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@id/eNaziv"
+        android:layout_alignLeft="@id/eNaziv"
+        />
+
+    <TextView
+        android:id="@+id/eOpis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eDatumObjavljivanja"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@+id/eDatumObjavljivanja"
+        android:layout_alignLeft="@id/eDatumObjavljivanja"
+        />
+
+    <TextView
+        android:id="@+id/eBrojStranica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eOpis"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@id/eOpis"
+        android:layout_alignLeft="@id/eOpis"
+        />
+
+    <Button
+        android:id="@+id/dPreporuci"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eBrojStranica"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/Preporuci"
+        android:focusable="false"/>
+
+
+</RelativeLayout>
